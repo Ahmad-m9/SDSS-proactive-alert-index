@@ -3,7 +3,7 @@ This Spatial Decision Support System (SDSS) should be run on Jupyter Notebook.
 To retrieve data from the Dab broker, follow the link below:
 https://github.com/ESSI-Lab/DAB
 
-To run the tool follow the steps below:
+To run the tool on Jupyter Notebook follow the steps below:
 
 
 ## Step 1: Install dab-py
