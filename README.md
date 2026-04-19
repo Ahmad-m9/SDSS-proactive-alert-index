@@ -1,7 +1,13 @@
 # Railway-proactive-alert-index
+This Spatial Decision Support System (SDSS) should be run on Jupyter Notebook. 
+To retrieve data from the Dab broker, follow the link below:
+https://github.com/ESSI-Lab/DAB
+
+To run the tool follow the steps below:
+
 
 ## Step 1: Install dab-py
-```python
+
 1.   !pip install --upgrade dab-py
  
 ## Step 2: Run the main code
