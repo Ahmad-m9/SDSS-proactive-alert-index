@@ -202,7 +202,7 @@ def process_data(df, target_col, start, end):
 
 def fetch_by_id(feature_id, obs_prop, start, end, keyword, conversion, index=None):
     try:
-        token = 'his_central-568a4888-d6bd-4be3-b7a6-d9887997bb0f'
+        token = userdata.get('token-his-central')
         client = HISCentralClient(token=token, view="his-central")
         c = Constraints(feature=feature_id, observedProperty=obs_prop, ontology="his-central", limit="100")
         obs_list = client.get_observations(c)
