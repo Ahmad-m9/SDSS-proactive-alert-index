@@ -1,5 +1,14 @@
 # Railway-proactive-alert-index
 <img width="1237" height="417" alt="Screenshot 2026-09-28 at 11 29 01" src="https://github.com/user-attachments/assets/8265daf7-0ff1-4ea0-9227-8b9ca3a65d66" />
+### Overview
+This Spatial Decision Support System (SDSS) is built to be executed within a [Jupyter Notebook](https://jupyter.org/). 
+
+### Data Retrieval
+To retrieve data from the DAB broker, follow the instructions provided in the [ESSI-Lab/DAB GitHub repository](https://github.com/ESSI-Lab/DAB).
+
+### Instructions
+To run the tool on Jupyter Notebook, follow these steps:
+
 
 This Spatial Decision Support System (SDSS) should be run on Jupyter Notebook. 
 To retrieve data from the Dab broker, follow the link below:
