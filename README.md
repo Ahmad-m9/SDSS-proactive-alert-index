@@ -1,8 +1,15 @@
-# Railway-proactive-alert-index
+# Hydrogeological Spatial Decision Support System (SDSS) for Linear Infrastructure
+A System of Systems (SoS) interoperability framework and dynamic early-warning simulator for extreme hydrogeological events.
+This repository provides an open-source Spatial Decision Support System (SDSS) that bridges the operational divide between environmental data providers (such as ARPAL and regional hydrological services) and transport infrastructure managers. Powered by the Discovery and Access Broker (DAB) approach via the ISPRA / CUAHSI HIS-Central API, the tool translates raw, disparate environmental telemetry into standardized OGC WaterML 2.0 streams and delivers real-time, site-specific infrastructure risk intelligence.
+
+### Key Features
+**Federated Data Brokering**: Ingests heterogeneous sensor feeds without requiring backend refactoring by regional data providers, using the DAB brokering methodology.
+**Scientific Submersion Modeling:** Computes Estimated Track Submersion ($\Delta h$) anchored to the physical tunnel entrance elevation (the critical transition node where the river meets confined subterranean infrastructure), rather than generalized track elevation.
+**Predictive Countdown Alerts:** Monitors water rise rates ($\text{m/h}$) to deliver automated lead-time countdowns and staged alerts (Orange / Red) hours prior to physical inundation.
+**Interactive Jupyter UI:** Synchronizes spatial bounding box (BBox) filtering, dynamic parameter controls, and dual-axis hydrograph visualizations in real time. And is built to be executed within a [Jupyter Notebook]
+
 <img width="1237" height="417" alt="Screenshot 2026-09-28 at 11 29 01" src="https://github.com/user-attachments/assets/8265daf7-0ff1-4ea0-9227-8b9ca3a65d66" />
 
-### Overview
-This Spatial Decision Support System (SDSS) is built to be executed within a [Jupyter Notebook](https://jupyter.org/). 
 
 ### Data Retrieval
 To retrieve data from the DAB broker, follow the instructions provided in the [ESSI-Lab/DAB GitHub repository](https://github.com/ESSI-Lab/DAB).
