@@ -4,8 +4,11 @@ This repository provides an open-source Spatial Decision Support System (SDSS) t
 
 ### Key Features
 **Federated Data Brokering**: Ingests heterogeneous sensor feeds without requiring backend refactoring by regional data providers, using the DAB brokering methodology.
+
 **Scientific Submersion Modeling:** Computes Estimated Track Submersion ($\Delta h$) anchored to the physical tunnel entrance elevation (the critical transition node where the river meets confined subterranean infrastructure), rather than generalized track elevation.
+
 **Predictive Countdown Alerts:** Monitors water rise rates ($\text{m/h}$) to deliver automated lead-time countdowns and staged alerts (Orange / Red) hours prior to physical inundation.
+
 **Interactive Jupyter UI:** Synchronizes spatial bounding box (BBox) filtering, dynamic parameter controls, and dual-axis hydrograph visualizations in real time. And is built to be executed within a [Jupyter Notebook]
 
 <img width="1237" height="417" alt="Screenshot 2026-09-28 at 11 29 01" src="https://github.com/user-attachments/assets/8265daf7-0ff1-4ea0-9227-8b9ca3a65d66" />
