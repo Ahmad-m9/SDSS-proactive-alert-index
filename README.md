@@ -11,7 +11,7 @@ To run the tool on Jupyter Notebook follow the steps below:
 
 2- Open your notebook in Google Colab and navigate to the Secrets tab (the key icon on the left sidebar).
 
-3- Add a new secret, name it token-his-central, and paste your key as the value.
+3- Add a new secret, name it "token-his-central", and paste your key as the value.
 
 ## Step 2: Install dab-py
 
