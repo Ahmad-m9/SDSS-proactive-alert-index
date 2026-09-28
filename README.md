@@ -7,12 +7,17 @@ To run the tool on Jupyter Notebook follow the steps below:
 
 
 ## Step 1: Install dab-py
+1- Register and complete the form on the HIS-Central portal to obtain your key.
+
+2- Open your notebook in Google Colab and navigate to the Secrets tab (the key icon on the left sidebar).
+
+3- Add a new secret, name it token-his-central, and paste your key as the value.
 
 ```python
 !pip install --upgrade dab-py
  ```
 ## Step 2: Run the main code
-
+After fill the fo
 ```python
 from dabpy import HISCentralClient, Constraints
 import pandas as pd
