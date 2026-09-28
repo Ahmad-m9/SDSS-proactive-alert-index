@@ -8,7 +8,8 @@ To run the tool on Jupyter Notebook follow the steps below:
 
 ## Step 1: Install dab-py
 
-1.   !pip install --upgrade dab-py
+```python
+!pip install --upgrade dab-py
  
 ## Step 2: Run the main code
 
