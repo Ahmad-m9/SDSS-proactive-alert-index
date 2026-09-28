@@ -6,18 +6,20 @@ https://github.com/ESSI-Lab/DAB
 To run the tool on Jupyter Notebook follow the steps below:
 
 
-## Step 1: Install dab-py
+## Step 1: How to Get the Token 
 1- Register and complete the form on the HIS-Central portal to obtain your key.
 
 2- Open your notebook in Google Colab and navigate to the Secrets tab (the key icon on the left sidebar).
 
 3- Add a new secret, name it token-his-central, and paste your key as the value.
 
+## Step 2: Install dab-py
+
 ```python
 !pip install --upgrade dab-py
  ```
-## Step 2: Run the main code
-After fill the fo
+## Step 3: Run the main code
+
 ```python
 from dabpy import HISCentralClient, Constraints
 import pandas as pd
